@@ -1,0 +1,28 @@
+{
+    "name": "sicet7/php-console-plugin",
+    "description": "Console plugin",
+    "type": "library",
+    "require": {
+        "symfony/console": "^6.2",
+        "sicet7/php-plugin-container": "dev-master"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Sicet7\\Console\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martin René Sørensen",
+            "email": "git@sicet7.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:sicet7/php-plugin-container.git"
+        }
+    ]
+}
